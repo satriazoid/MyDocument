@@ -19,12 +19,8 @@
   <img src="image/alur.webp" alt="Alur MyDocument" width="85%" />
 </p>
 
----
-
 ## 📑 Mengenai Proyek
 **MyDocument App** dirancang dengan arsitektur *decoupled*. Backend menangani pemrosesan teks berat, pembersihan data (*text cleaning*), dan interaksi database, sementara Frontend fokus pada pengalaman pengguna yang intuitif.
-
-
 
 ---
 

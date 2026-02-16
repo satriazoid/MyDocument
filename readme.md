@@ -13,7 +13,6 @@
 </div>
 
 ---
----
 
 
 ## 📑 Mengenai Proyek
@@ -28,14 +27,13 @@ Proyek ini terbagi menjadi dua folder utama untuk menjaga kode tetap bersih dan 
 
 ```bash
 mydocument/
+├── ⚙️ backend/                # Core Logic & Data Processing
+│   ├── generator.py          # Modul pemrosesan dokumen & text cleaning
+│   ├── main.py               # Entry point API (Flask/FastAPI)
+│   ├── models.py             # Definisi skema database & struktur data
+│   └── 🗄️ database/           # Folder khusus penyimpanan SQLite
 │
-├── ⚙️ backend/               # Logic & Data Processing
-│   ├── generator.py         # Modul pembuatan/pemrosesan dokumen
-│   ├── main.py              # Entry point API (Flask/FastAPI)
-│   ├── models.py            # Definisi skema database & struktur data
-│   └── 🗄️ database/          # Penyimpanan database SQLite
-│
-└── 🎨 frontend/              # User Interface
-    ├── index.html           # Struktur utama halaman
-    ├── style.css            # Styling & Layouting
-    └── app.js               # Logic interaksi di sisi client (Fetch API)
+└── 🎨 frontend/               # User Interface & Interaction
+    ├── index.html            # Struktur utama halaman (HTML5)
+    ├── style.css             # Desain visual & layouting (CSS3)
+    └── app.js                # Logic sisi klien & Fetch API (JS)

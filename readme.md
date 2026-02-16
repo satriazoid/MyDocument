@@ -1,50 +1,46 @@
-# ──────────────────────────────────────────────────────────────────────
-#   📄 MY DOCUMENT APP - Simple, Clean, & Organized
-#   Manage, process, and store your documents without the mess.
-# ──────────────────────────────────────────────────────────────────────
+<div align="center">
 
-## 📌 Apa itu MyDocument?
-Jujur saja, kita semua benci dokumen yang berantakan. **MyDocument** dibuat untuk jadi solusi simpel buat siapa saja (mahasiswa, researcher, atau dev) yang butuh tempat terpusat buat simpan teks dan file. 
+<img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=MyDocument%20App&fontSize=70&animation=fadeIn&fontAlignY=50" width="100%" />
 
-Nggak cuma simpan, aplikasi ini punya "tukang bersih-bersih" otomatis (Text Cleaner) yang bakal ngerapiin simbol aneh atau spasi double di teks kamu sebelum masuk ke database.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
+
+**Solusi manajemen dokumen modern yang terstruktur, efisien, dan aman.**
+*Didesain untuk menangani teks dan file dengan pendekatan minimalis.*
+
+---
+</div>
+
+## 🌌 Tentang MyDocument
+Banyak aplikasi manajemen dokumen yang terlalu berat. **MyDocument** hadir dengan pendekatan berbeda: **Ringan, Cepat, dan Fokus pada Data**. Aplikasi ini bukan sekadar tempat penyimpanan, tapi juga asisten pemrosesan teks yang memastikan setiap data yang masuk sudah dalam kondisi bersih dan siap pakai.
+
+### 🛠️ Core Capabilities
+* **Structured Storage**: Database SQLite yang solid untuk menjamin integritas data.
+* **Automated Text Cleaning**: Modul cerdas untuk normalisasi teks secara *real-time*.
+* **Centralized Repository**: Akses semua dokumen hanya dari satu pintu API.
+* **Developer Friendly**: Arsitektur modular yang memudahkan kustomisasi lebih lanjut.
 
 ---
 
-## 🔥 Fitur Unggulan
-- **Centralized Management**: Semua dokumen ngumpul di satu tempat, nggak perlu nyari-nyari folder lagi.
-- **Smart Text Cleaning**: Normalisasi teks otomatis (hapus noise & simbol nggak penting).
-- **Fast Search**: Cari dokumen yang kamu butuhin dalam sekejap.
-- **SQLite Database**: Ringan, nggak perlu install server DB yang berat-berat.
-- **RESTful API**: Gampang diintegrasikan ke front-end atau aplikasi lain.
+## 🏗️ Arsitektur Proyek
+Struktur folder dirancang mengikuti standar industri untuk pemisahan *concern* (Separation of Concerns):
 
----
-
-## 🛠️ "Jeroan" Aplikasi
-Kita pakai stack yang simpel tapi powerfull:
-* **Language:** Python (The GOAT for text processing)
-* **Framework:** Flask (Biar enteng & fleksibel)
-* **Database:** SQLite (No-nonsense storage)
-* **API Format:** JSON
-* **Workspace:** VS Code
-
----
-
-## 📂 Struktur Folder (Biar Nggak Bingung)
-```text
+```bash
 mydocument/
-├── app.py                # Jantungnya aplikasi
-├── requirements.txt      # List belanjaan library
-├── README.md             # Yang lagi kamu baca sekarang
+├── 📄 app.py              # Entry point aplikasi (Main Server)
+├── 📦 requirements.txt    # Daftar dependency sistem
+├── 📖 README.md           # Blueprint dokumentasi
 │
-├── database/
-│   └── mydocument.db     # Tempat semua data bernaung
+├── 🗄️ database/
+│   └── mydocument.db      # SQLite Database (Storage layer)
 │
-├── routes/
-│   ├── text.py           # Logic buat inputan teks mentah
-│   └── file.py           # Logic buat urusan upload file
+├── 🛣️ routes/
+│   ├── text.py            # API logic untuk data berbasis teks
+│   └── file.py            # API logic untuk manajemen file fisik
 │
-├── utils/
-│   └── text_cleaner.py   # Modul rahasia pembersih teks
+├── ⚙️ utils/
+│   └── text_cleaner.py    # Engine pembersih & normalisasi teks
 │
-└── uploads/
-    └── files/            # Rumah buat file-file yang kamu upload
+└── 📤 uploads/
+    └── files/             # Vault penyimpanan file asli

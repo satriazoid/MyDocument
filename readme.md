@@ -22,8 +22,6 @@
 ## 📑 Mengenai Proyek
 **MyDocument App** dirancang dengan arsitektur *decoupled*. Backend menangani pemrosesan teks berat, pembersihan data (*text cleaning*), dan interaksi database, sementara Frontend fokus pada pengalaman pengguna yang intuitif.
 
----
-
 ## 📂 Struktur Proyek (Architecture)
 Proyek ini terbagi menjadi dua folder utama untuk menjaga kode tetap bersih dan mudah dikembangkan:
 

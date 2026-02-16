@@ -1,6 +1,6 @@
-<div align="center">
-
-<<img src="https://www.shutterstock.com/shutterstock/photos/2697012297/display_1500/stock-photo-vibrant-dark-blue-abstract-background-with-smooth-gradient-waves-and-soft-light-reflections-modern-2697012297.jpg" width="100%" alt="MyDocument App Banner" />
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0066CC,100:00BFA6&height=230&section=header&text=MyDocument%20App&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Document%20Management%20%7C%20Text%20Cleaning%20%7C%20Fullstack%20Python&descAlignY=60&descSize=18" />
+</p>
 
 [![Fullstack](https://img.shields.io/badge/Architecture-Fullstack-brightgreen?style=for-the-badge)](#)
 [![Backend](https://img.shields.io/badge/Backend-Python-blue?style=for-the-badge&logo=python)](https://python.org)
